@@ -1,0 +1,15 @@
+{
+  "name": "quote-for-thought",
+  "version": "1.0.0",
+  "description": "Displays a random quote every 60 secs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	 "start": "node app.js"
+  },
+  "author": "melissa",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}

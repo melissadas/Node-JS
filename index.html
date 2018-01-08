@@ -1,0 +1,37 @@
+<html>
+    <head>
+      <meta http-equiv="refresh" content="300">
+      <title>Quote for Thought</title>
+    </head>
+    <body style="background-color:bisque">
+    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+    <div align="center">
+      <h1 style="color:#1a1a1a" id="quoteHeader"></h1>
+    </div>
+    
+    <script>
+    var quotes=[
+    "I have not failed. I’ve just found 10,000 ways that won’t work. -Thomas A. Edison",
+    "Don’t take life too seriously. You’ll never get out of it alive. -Elbert Hubbard",
+    "Do the hard jobs first. The easy jobs will take care of themselves. -Dale Carnegie",
+    "Anyone who has never made a mistake has never tried anything new. -Albert Einstein",
+    "It is through art, and through art only, that we can realise our perfection. -Oscar Wilde",
+    "At the end of the day, it isn’t where I came from. Maybe home is somewhere I am going and never have been before. -Warsan Shire", 
+    "Each night, when I go to sleep, I die. And the next morning, when I wake up, I am reborn. -Mahatma Gandhi",
+    "Don't judge each day by the harvest you reap but by the seeds that you plant. - Robert Louis Stevenson",
+    "Those who dream by day are cognizant of many things which escape those who dream only by night. - Edgar Allan Poe, Eleonora",
+    "It was the possibility of darkness that made the day seem so bright. -Stephen King"
+                   ];
+
+                   setInterval(function() {
+                  window.location.reload();
+                 
+                }, 60000);
+                var randomNumber=Math.floor((Math.random() * 10) + 1);
+                 document.getElementById('quoteHeader').innerHTML=quotes[randomNumber-1];
+              
+    
+    </script>
+    
+    </body>
+    </html>
